@@ -1,0 +1,485 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+body{
+	background:  #F5F5F5;
+	color: ;
+	font-size: 18px;
+	font-family: 'Noto Sans Display', sans-serif;
+
+
+}
+.nav-principal a{
+	
+	text-decoration: none;
+
+}
+.nav-principal ul {
+	list-style: none;
+	margin: auto;
+	margin-left: 20px;
+	
+}
+.conteiner{
+	width: 75%;
+	margin: auto;
+
+
+}
+.nav-principal{
+	font-size: 20px;
+	display: flex;
+	
+	align-items: center;
+	height: 80px;
+	padding: 20px 0;
+	margin: auto;
+
+
+}
+.img-logo{
+	width: 60px;
+	margin-left: 100px;
+	border: none;
+
+
+
+}
+.nav-principal ul{
+	display: flex;
+	
+
+}
+
+
+.controlador{
+	font-size: 20px;
+	display: flex;
+	
+	align-items: center;
+	height: 80px;
+	padding: 20px 0;
+	margin: auto;
+}
+.controlador ul{
+	display: flex;
+	list-style: none;
+	margin: auto;
+	background: #C0C0C0;
+}
+
+.controlador li{
+	padding: 0 35px;
+}
+.controlador a{
+	
+	text-decoration: none;
+}
+
+.controlador ul li a:hover {
+	border-bottom: 2px solid black;
+}
+
+.nav-principal li{
+	padding: 0 35px;
+}
+.nav-principal ul li a:hover {
+	border-bottom: 2px solid black;
+
+}
+.not{
+	text-align: center;
+	padding: 10px;
+	
+
+}
+.conteiner2{
+	width: 75%;
+	margin: auto;
+	padding-top: 20px;
+
+}
+.img1{
+	height: 60%;
+	width: 100%;
+	display: block;
+	margin: auto;
+
+}
+.h2not1{
+	
+    margin-bottom: 20px;
+
+
+}
+.h41{
+	
+	padding: 10px;
+
+}
+.conteiner-flex{
+	
+	display: flex;
+	flex-wrap:wrap ;
+	
+
+}
+
+
+.img2{
+	width: 100%;
+	height: 80%;
+
+}
+.caja1 {
+	width: 550px;
+	height: 450px;
+	margin: auto;
+}
+
+
+.caja2{
+	width: 550px;
+	height: 450px;
+	margin: auto;
+}
+.caja29{
+	width: 550px;
+	height: 450px;
+	margin: auto;
+}
+
+.img3{
+	width: 100%;
+	height: 80%;
+
+}
+.caja29 h4{
+	margin-top: -20px;
+}
+
+
+
+.conteiner-footer{
+	width: 70%;
+	margin: auto;
+	padding-top: 50px;
+	display: flex;
+	margin-bottom: 50px;
+
+}
+.conteiner-footer img{
+	border: none;
+}
+.columna1{
+	width: 320px;
+}
+
+.columna1 p{
+margin-top: 20px;
+
+}
+.columna2{
+	width: 270px;
+	
+
+}
+.columna3{
+	width: 360px;
+
+
+}
+
+
+.conteiner-flex1 h4{
+	padding-bottom: 20px;
+	text-align: center;
+	
+}
+.columna2 div{
+	margin-top: 20px;
+	display: flex;
+	margin-left: 20px;
+
+}
+.columna2 h4{
+	margin-left: 20px;
+}
+.columna2 img{
+	width: 25px;
+	height: 25px;
+
+}
+.columna2 label{
+	margin-left: 10px;
+}
+.columna3 img{
+	width: 25px;
+	height: 25px;
+
+}
+.columna3 label{
+	margin-left:10px ;
+}
+.columna3 div{
+	display: flex;
+	margin-top: 20px;
+}
+.caja2 h3 h4{
+	margin-bottom: 50px;
+
+}
+
+
+
+.caja11 img{
+	width: 100%;
+	height: 75%;
+}
+.caja11{
+	width: 550px;
+	height: 450px;
+	text-align: center;
+	margin-left: -10px;
+}
+.caja11 h4{
+	margin-bottom: 15px;
+	
+}
+.caja22 img{
+	width: 100%;
+	height: 75%;
+	
+
+}
+.caja22{
+	width: 550px;
+	height: 450px;
+	text-align: center;
+	margin-left: 10px;
+
+
+}
+.caja22 h4{
+	margin-bottom: 15px;
+}
+.caja33{
+	width: 550px;
+	height: 450px;
+	text-align: center;
+	
+
+}
+.caja33 h4{
+	margin-bottom: 15px;
+}
+.caja33 img{
+	width: 100%;
+	height: 75%;
+}
+.caja44{
+	width: 550px;
+	height: 450px;
+	text-align: center;
+	margin-left: 10px;
+
+}
+.caja44 h4{
+	margin-bottom: 15px;
+}
+.caja44 img{
+	width: 100%;
+	height: 75%;
+}
+.hr{
+	
+	width: 80%;
+	margin: auto ;
+	position: relative;
+	bottom: -40px;
+}
+.conteiner-animacion{
+	width: 75%;
+	margin: auto;
+	height: 120px;
+	padding: 10px;
+}
+.animacion img{
+	width: 80px;
+	height: 80px;
+	animation-name: desplazarse;
+	animation-duration: 4s;
+	position: relative;
+	animation-iteration-count: 3;
+	animation-direction: alternate;
+	border: none;
+
+}
+
+
+@keyframes desplazarse{
+	0%{
+
+		left: 0;
+	}
+
+	50%{
+		height: 100px;
+		width: 100px;
+
+	}
+	100%{
+		height: 110px;
+		width: 110px;
+		left: 90%;
+
+	}
+}
+.conteiner-flex1{
+
+	width: 75%;
+	height: 500px;
+	margin: auto;
+	display: flex;
+
+}
+.conteiner-flex1 div img{
+	width: 100%;
+	height: 80%;
+
+}
+
+.h4eco{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.conteiner-video{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+video{
+	width: 70%;
+	margin-top: 50px;
+}
+.conteiner-video img{
+	height: 20px;
+	width: 20px;
+}
+.tit1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+
+}
+img{
+	 border-radius: 10px;
+	 border: groove black;
+}
+.caja-canvas{
+	width: 50%;
+	margin: auto;
+	background-image: https://images.clarin.com/2021/10/22/tiziana-prada-fundo-la-cabana___E1f0pvB4G_1256x620__1.jpg ;
+}
+#lienzo1{
+	
+	
+}
+.caja-imgcanvas{
+	width: 50%;
+	margin: auto;
+}
+.img-canvas{
+
+	width: 650px;
+	height: 350px;
+	position: relative;
+	top: -380px;
+	left: 25px;
+	border: none;
+	border-radius: 0px;
+	
+}
+.titulo-canvas{
+	position: relative;
+	bottom: 360px;
+	right: 22px;
+	text-align: center;
+}
+svg{
+	padding-right: 70px;
+	padding-left: 100px;
+	 
+}
+.conteiner-svg{
+	 
+}
+.svg-img{
+	height: 50%;
+	width: 60%;
+	margin: auto;
+	display:block;
+}
+.h2-svg{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.h5-svg{
+	text-align: center;
+	padding-top: 20px;
+}
+rect#bi{
+	animation: linea1 ease-in-out 2s infinite;
+	animation-direction: alternate;
+
+}
+
+rect#bd{
+
+animation: linea2 ease-in-out 2s infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes linea1{
+	from{
+		transform: translate(0,0);
+
+	}
+
+	to{
+		transform: translate(400px,0);
+
+	}
+}
+
+@keyframes linea2{
+	from{
+		transform: translate(700,0);
+
+	}
+
+	to{
+		transform: translate(-400px,0);
+
+	}
+}
+#container-opinion{
+	width: 40%;
+	margin: auto;
+	margin-top: 50px;
+
+}
+#lista-1{
+	text-align: center;
+	list-style-type: none;
+	background: grey;
+}
+.hola{
+	text-align: center;
+
+
+}

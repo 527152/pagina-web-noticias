@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>Pagina web Noticias</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap" rel="stylesheet">
+    
+
+</head>
+<body onload="mostrar()">
+	<header>
+	<div class="conteiner">
+		<nav class="nav-principal">
+			<img src="logo.png" alt="noticias logo" class="img-logo">
+			<ul>
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+
+				<li>
+					<a href="tendencias.html">Tendencias</a>
+				</li>
+
+				<li>
+					<a href="economia.html">Economia</a>
+				</li>
+
+				<li>
+					<a href="deportes.html">Deportes</a>
+				</li>
+
+				<li>
+					<a href="#">Politica</a>
+                </li>
+
+                <li>
+                	<a href="opinion.html">Opinion</a>
+                </li>
+              
+				
+			</ul>
+
+
+		</nav>
+		<hr>
+
+		<h1 class="not"> ¡deja tu opinion sobre la pagina!</h1>
+
+		<hr>
+    </header>
+    <section >
+
+    	<div id="container-opinion">
+    		<ul id="lista-1" contenteditable>
+    			<li>Escribe aquí tu opinión:</li>
+    			 
+    		</ul>
+    		<p class="hola"><a href="#" onclick="guardar()">Guardar</a></p>
+    		<p class="hola"><a href="#" onclick="borrar()">Eliminar</a></p>
+
+
+    	</div>
+    	
+    </section>
+    <script type="text/javascript" src="opinion.js"></script>
+
+
+</body>
+
+
+
+</html>
